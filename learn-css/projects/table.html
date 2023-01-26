@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            width: 100%;
+            /* border: 1px solid black; */
+            /* border-collapse: separate;*/
+            border-collapse: collapse;
+        }
+        thead{
+
+        }
+        tbody{
+
+        }
+        tr{
+            background-color: gray;
+        }
+        tr:hover{
+            opacity: 0.9;
+        }
+        tr:nth-child(odd){
+            background-color: white;
+        }
+        th{
+            border: 1px solid white;
+            padding: 15px 20px;
+            background-color: skyblue;
+        }
+        td{
+            border: 1px solid white;
+            padding: 15px 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Job</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>htet</td>
+                <td>0234555521</td>
+                <td rowspan="2">developer</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>lin</td>
+                <td>0234555521</td>
+                
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>htet</td>
+                <td>0234555521</td>
+                <td>marketing</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>htet</td>
+                <td>0234555521</td>
+                <td>developer</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>lin</td>
+                <td>0234555521</td>
+                <td>developer</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>htet</td>
+                <td>0234555521</td>
+                <td>marketing</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>6 staff</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
